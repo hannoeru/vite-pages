@@ -24,7 +24,9 @@ import { generateRoutes } from 'vite-pages'
 // https://vitejs.dev/guide/features.html#glob-import
 const pages = import.meta.glob('./pages/**/*.vue')
 
-const routes = generateRoutes(pages),
+const options = {}
+
+const routes = generateRoutes(pages, options),
 
 const app = createApp(App)
 
