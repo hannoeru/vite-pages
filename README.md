@@ -3,7 +3,7 @@
 
 [![npm version](https://img.shields.io/npm/v/vite-pages)](https://www.npmjs.com/package/vite-pages)
 
-> File system based routes generator for vue-router using [Vite](https://github.com/vitejs/vite)'s glob import.
+> File system based routes generator for vue-router using [Vite](https://github.com/vitejs/vite)'s [glob import](https://vitejs.dev/guide/features.html#glob-import).
 
 ## Getting Started
 
